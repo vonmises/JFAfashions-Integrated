@@ -38,15 +38,6 @@ footer ul li:not(:first-child)::before {
   color: #545252;
 }
 
-footer a, footer a:visited {
-  color: white;
-  text-decoration: underline;
-}
-
-footer a:hover, footer a:focus, footer a:active, footer a:visited:hover, footer a:visited:focus, footer a:visited:active {
-  color: white;
-}
-
 #slider {
   position: relative;
   margin: 40px auto 20px auto;
@@ -71,13 +62,13 @@ footer a:hover, footer a:focus, footer a:active, footer a:visited:hover, footer 
   cursor: pointer;
 }
 
-#slider .nav .previous {
+#slider .nav.previous {
   left: 0;
-  background-image: url(../images/fashion/left-arrow.png);
+  background-image: url(../images/styling/left-arrow.png);
 }
-#slider .nav .next {
+#slider .nav.next {
   right: 0;
-  background-image: url(../images/fashion/right-arrow.png);
+  background-image: url(../images/styling/right-arrow.png);
 }
 
 #dots ul {
@@ -101,25 +92,4 @@ footer a:hover, footer a:focus, footer a:active, footer a:visited:hover, footer 
 
 #dots ul li.active {
   background-color: #c1c992;
-}
-
-.preview {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  top: 100px;
-  overflow: hidden;
-  border-radius: 50%;
-}
-
-.preview img {
-  width: 100px;
-}
-
-.preview.previous-image {
-  left: 100px;
-}
-
-.preview.next-image {
-  right: 100px;
 }
