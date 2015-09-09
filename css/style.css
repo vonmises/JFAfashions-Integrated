@@ -3,6 +3,10 @@
   height:500px;
 }
 
+.copyright{
+  text-align: center;
+}
+
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -98,3 +102,26 @@ footer ul li:not(:first-child)::before {
 #dots ul li.active {
   background-color: #c1c992;
 }
+
+.col { 
+  background: #ffffff;
+  float: left;
+  padding: 30px 0 0 35px;
+  width: 310px;
+}
+
+.col ul { 
+  list-style: none; 
+  margin: 0; 
+  padding: 0; 
+}
+ 
+.col li { 
+  float: left; 
+  height: 35px; 
+  margin: 3px 0;
+  padding: 0; 
+  width: 310px; 
+}
+
+#extras { background: #ffffff; height: 420px; margin: 100px 0 0 0; position: relative; width: 100%; }
