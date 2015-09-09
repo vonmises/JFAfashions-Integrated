@@ -1,3 +1,20 @@
+//sidebar
+$(function(){
+	$('.btn-close').hide();
+	$('#sidebar').hide();
+	$('.btn-open').click(function(e){
+		$(this).hide();
+		$('.btn-close').show();
+		$('#sidebar').show();
+	});
+    $('.btn-close').click(function(e){
+        $('#sidebar').toggle('slide', { direction: 'left' }, 1000);
+        $('#main-content').animate({
+            'margin-left' : $('#main-content').css('margin-left') == '0px' ? '210px' : '0px'
+        }, 1000);
+    });
+});
+
 // SLIDER
 var slider = function() {
 
